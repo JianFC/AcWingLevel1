@@ -340,9 +340,9 @@
 >
 >   将a分解
 >
->   (1+x)^a = ((1+x)^a0)  * (((1+x)^p)^a1) * … * (((1+x)^pk)^ak) 
+>   (1+x)^a = ((1+x)^a0)  * (((1+x)^p)^a1) * … * (((1+x)^(p^k))^ak) 
 >
->   ​			  = ((1+x)^a0) * ((1+x^p)^a1) * … * ((1+x^pk)^ak) 
+>   ​			  = ((1+x)^a0) * ((1+x^p)^a1) * … * ((1+x^(p^k))^ak) 
 >
 >    对于x^b，等式左边其系数为C(a, b)，等式右边其系数为C(ak, bk) * C(a(k-1), b(k-1)) * … * C(a0, b0)
 >
@@ -351,6 +351,8 @@
 >   若存在bi > ai，则C(a, b) = 0
 >
 >   P.S. 最后一步对应没太懂QAQ
+>   
+>   ![Chapter4_Lucas证明](C:\Users\JeffCheng\Desktop\VSC\AcWing\Chapter4\Chapter4_Lucas证明.PNG)
 >
 > 
 >
